@@ -1,5 +1,7 @@
 # calculator
 
+Live demo: [Calculator](https://lijotgeorge.github.io/calculator/)
+
 **(2021/09/24)**: My entry to The Odin Project Calculator Challenge
   - Basic calculator with simple functionalities
   - Keyboard support included
