@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <script src="scripts/script.js" async defer></script>
+    <title>Calculator by Lijo T. George</title>
+  </head>
+  <body>
+    <div id="container">
+      <div id="label">Calculator</div>
+
+      <div id="display">
+        <div id="display-top"></div>
+        <div id="display-divider"></div>
+        <div id="display-bottom"></div>
+      </div>
+
+      <div id="keypad-container">
+        <button class="btn other-keys" id="key-clear">C</button>
+        <button class="btn other-keys" id="key-delete">DEL</button>
+        <button class="btn other-keys" id="key-sqrt">&#8730;</button>
+        <button class="btn op-keys" id="key-divide" value="/">&#247;</button>
+        <button class="btn num-keys" id="key-7">7</button>
+        <button class="btn num-keys" id="key-8">8</button>
+        <button class="btn num-keys" id="key-9">9</button>
+        <button class="btn op-keys" id="key-multiply" value="*">&#215;</button>
+        <button class="btn num-keys" id="key-4">4</button>
+        <button class="btn num-keys" id="key-5">5</button>
+        <button class="btn num-keys" id="key-6">6</button>
+        <button class="btn op-keys" id="key-subtract" value="-">&#8722;</button>
+        <button class="btn num-keys" id="key-3">3</button>
+        <button class="btn num-keys" id="key-2">2</button>
+        <button class="btn num-keys" id="key-1">1</button>
+        <button class="btn op-keys" id="key-add" value="+">&#43;</button>
+        <button class="btn" id="key-decimal">.</button>
+        <button class="btn num-keys" id="key-0">0</button>
+        <button class="btn eq-key" id="key-equals">&#61;</button>
+      </div>
+
+      <div id="footer">
+        An implementation by
+        <a href="https://lijotgeorge.github.io" target="_blank"
+          >Lijo T. George</a
+        >.
+      </div>
+    </div>
+    <div id="keyinfo">
+      <p>
+        Keyboard Shortcuts:<br />
+        Esc: Clear Screen<br />
+        0-9: Numbers<br />
+        +-/*: Mathematical Operations<br />
+        Enter: Equals
+      </p>
+    </div>
+  </body>
+</html>
